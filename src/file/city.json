@@ -1,0 +1,18 @@
+{
+    "cityList":[
+        {"kor":"서울","eng":"seoul"},
+        {"kor":"인천","eng":"incheon"},
+        {"kor":"대전","eng":"daejeon"},
+        {"kor":"대구","eng":"daegu"},
+        {"kor":"부산","eng":"busan"},
+        {"kor":"울산","eng":"ulsan"},
+        {"kor":"광주","eng":"gwangju"},
+        {"kor":"세종","eng":"sejong"},
+        {"kor":"문경","eng":"mungyeong"},
+        {"kor":"상주","eng":"sangju"},
+        {"kor":"예천","eng":"yecheon"},
+        {"kor":"안동","eng":"andong"},
+        {"kor":"청주","eng":"cheongju"},
+        {"kor":"영양","eng":"yeongyang"}
+    ]
+}

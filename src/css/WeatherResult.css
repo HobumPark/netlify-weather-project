@@ -1,0 +1,88 @@
+
+#weather-result{
+    width:90%;
+    height:300px;
+    background-color:#ffffff;
+    /* background-color: coral; */
+    margin:10px auto;
+    padding-top:30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#weather-result>#weather-info{
+    width:95%;
+    height:330px;
+    /* background-color: chartreuse; */
+    margin:0px auto;
+}
+/*날씨 정보 헤더*/
+#weather-info>#weather-info-header{
+    width:100%;
+    height:15%;
+    /* background-color: darkgoldenrod; */
+}
+#weather-info>#weather-info-header>span{
+    color: #777;
+    font-weight: bold;
+    font-size:30px;
+}
+#weather-info>#weather-info-header>span>b{
+    color: #e96e50;
+}
+/*날씨 정보 메인*/
+#weather-info>#weather-info-main{
+    width:100%;
+    height:70%;
+    /* background-color: darkgreen; */
+}
+
+#weather-info-main>#weather-info-main-top{
+    width:100%;
+    height:50%;
+    /* background-color: rebeccapurple; */
+}
+#weather-info-main-top>span{
+    /* background-color: blanchedalmond; */
+    font-size:45px;
+    font-weight: bold;
+    color:#111;
+    position: relative;
+    left:0px;
+    top:-20px;
+}
+#weather-info-main>#weather-info-main-mid{
+    width:100%;
+    height:20%;
+    /* background-color: rosybrown; */
+}
+#weather-info-main-mid>span{
+    border-radius: 10px;
+    padding:5px 10px;
+    box-sizing: border-box;
+    background-color: khaki;
+    color:#8f8f8f;
+    margin:5px;
+}
+#weather-info-main-mid>span>b{
+    color:#424242;
+}
+
+/*날씨 정보 푸터*/
+#weather-info>#weather-info-footer{
+    width:100%;
+    height:10%;
+    /* background-color: darkorange; */
+}
+
+@media (max-width: 444px) {
+
+    #weather-result{
+        height:340px;
+    }
+
+    #weather-info-main-mid>span{
+        display:block;
+        font-size:20px;
+    }
+}
